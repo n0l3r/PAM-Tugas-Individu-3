@@ -4,7 +4,7 @@
     "slug": "hiling-id",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icons/airplane-take-off.png",
+    "icon": "./assets/icons/airplane-takeoff.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.n0l3r.hilingid"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.n0l3r.hilingid"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cafb5380-7753-49f6-98df-1dd7ff5323ce"
+      }
     }
   }
 }

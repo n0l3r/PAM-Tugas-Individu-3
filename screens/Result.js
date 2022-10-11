@@ -11,7 +11,7 @@ const Result = ({ navigation, route }) => {
     const postData = route.params.data;
     const data = JADWAL.filter(jadwal => jadwal.bandara_kode_keberangkatan === postData.keberangkatan && jadwal.bandara_kode_tujuan === postData.tujuan && jadwal.tanggal === postData.tanggal);
     const Images = {
-        'GA.png': require('../assets/images/GA.png'),
+        'GA.png': require('../assets/images/GA.jpeg'),
         'SJ.png': require('../assets/images/SJ.png'),
         'JT.png': require('../assets/images/JT.png'),
         'QG.png': require('../assets/images/QG.png'),
