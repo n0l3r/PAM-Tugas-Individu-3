@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import InputGroup from "../components/InputGroup";
 import PrimaryButton from "../components/PrimaryButton";
 
-function Home({ navigation }) {
+const Home = ({ navigation }) => {
     const [body, setBody] = useState({
         keberangkatan: '',
         tujuan: '',

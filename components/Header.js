@@ -1,6 +1,6 @@
 import { View, Image, Text, StyleSheet, Dimensions, Pressable, TouchableOpacity } from 'react-native';
 
-function Header({ children, onPress }) {
+const Header = ({ children, onPress }) => {
     return (
         <View style={styles.header}>
             <TouchableOpacity onPress={onPress}>
