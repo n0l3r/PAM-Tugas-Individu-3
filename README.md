@@ -11,9 +11,7 @@
 </center>
 
 ## Video
-<center>
-    <video src="docs/demo.mp4" width="30%" controls></video>
-</center>
+https://user-images.githubusercontent.com/71002775/195011125-42acaa65-aa48-46e3-9da9-9f3abd8085d2.mp4
 
 ## How to run
 1. Clone this repository
@@ -47,6 +45,10 @@
     eas build --platform all
     ```
 4. Download the apk file
+
+
+
+
 
 
 
